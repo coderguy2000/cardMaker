@@ -59,7 +59,7 @@ li {
   width: 333px;
 }
 .banner--content {
-  margin: 60px 100px 0px 60px;
+  margin: 60px 40px;
   position: relative;
 }
 .banner--heading {
@@ -259,5 +259,33 @@ li {
   margin-bottom: 10px;
 }
 hr {
-  margin: 40px 100px;
+  margin: 40px 100px 10px 100px;
+}
+.address-follow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 100px;
+  font-family: "Font Awesome 5 Free";
+}
+.address {
+  width: 60%;
+}
+.address-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.follow {
+  padding: 0px 50px;
+  width: 425px;
+}
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 15px;
 }
