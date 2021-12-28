@@ -1,0 +1,90 @@
+@media screen and (max-width: 950px) {
+  .header {
+    width: 100vw;
+    margin: 20px auto;
+    display: block;
+  }
+  .logo img {
+    margin-left: 20px;
+  }
+  .banner {
+    width: 100%;
+    justify-content: center;
+  }
+  .banner--image img {
+    width: 70vw;
+  }
+  /* .nav--sm {
+    background-color: yellow;
+  } */
+  .slider {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: end;
+    min-height: 40px;
+    background-color: black;
+    color: white;
+  }
+  .hamburger--menu {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px 40px 0px;
+  }
+  .nav--sm ul {
+    display: block;
+    height: auto;
+  }
+  .nav--sm ul li {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid grey;
+  }
+  .nav--sm ul li:hover {
+    background-color: grey;
+    color: white;
+  }
+  .hidden {
+    display: none;
+  }
+  .pager {
+    right: -10px;
+  }
+  .simple {
+    font-size: 18px;
+    margin: 0px 0px 0px 6px;
+  }
+  .ex--card--img {
+    width: 100vw;
+    margin: 0px 0px 40px 0px;
+  }
+  .why--us {
+    margin: 20px;
+  }
+  .side--img {
+    margin-top: 50px;
+  }
+  .side--img img {
+    width: 80vw;
+    height: auto;
+  }
+  .features {
+    justify-content: space-around;
+  }
+  .feature {
+    width: auto;
+  }
+  .templates {
+    margin: 30px 0px;
+  }
+  .template--card {
+    min-width: 0px;
+  }
+  .testimonial {
+    margin: 25px;
+  }
+  hr {
+    margin: 40px 50px;
+  }
+}
